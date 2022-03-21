@@ -1,5 +1,5 @@
 <div *ngIf="weatherData">
   <p>{{ weatherData.ob_time }}</p>
-  <p>{{ weatherData.temp }} °C</p>
+  <p><strong>{{ weatherData.temp }} {{ weatherData.symbol }}</strong></p>
   <p>{{ weatherData.city_name }}</p>
 </div>

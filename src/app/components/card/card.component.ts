@@ -1,4 +1,3 @@
-import { Weather } from './../../models';
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({

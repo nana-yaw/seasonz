@@ -1,1 +1,10 @@
 <app-card [weatherData] = "currentWeatherData"></app-card>
+
+<div class="toggleTemperature">
+  °C
+  <label class="switch">
+    <input type="checkbox" (change)="toggleTemperatureUnit($event)" >
+    <span class="slider round"></span>
+  </label>
+  °F
+</div>
